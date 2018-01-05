@@ -39,5 +39,4 @@ M. Mihelcic and T. Šmuc, “InterSet: Interactive redescription set exploration
 Proceedings of Discovery Science: 19th International Conference, DS 2016, Bari,
 Italy, October 19–21, 2016, T. Calders, M. Ceci, and D. Malerba, Eds. Cham:
 Springer International Publishing, 2016, pp. 35–50, isbn: 978-3-319-46307-0. doi:
-10.1007/978-3-319-46307-0_3. [Online]. Available: http://dx.doi.org/10.
-1007/978-3-319-46307-0_3.
+10.1007/978-3-319-46307-0_3. [Online]. Available: http://dx.doi.org/10.1007/978-3-319-46307-0_3.
