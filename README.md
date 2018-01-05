@@ -10,6 +10,8 @@ About InterSet
 
 InterSet is the tool designed to allow interactive, comprehensive, redescription set exploration. The tool contains three exploration contexts that contain various exploration and analyses procedures based on the used redescription set.
 
+This tool was developed as a part of requirement for obtaining a PhD degree in Computer Science at the Jožef Stefan International Postgraduate School, Ljubljana, Slovenia (https://www.mps.si/splet/index.asp?lang=eng).
+
 
 Implementation
 --------------------
@@ -24,6 +26,8 @@ Student:
 
 Matej Mihelčić, Ruđer Bošković Institute, Zagreb, Croatia
 Supervisors:
+
+Supervisor:
 
 Dr. Tomislav Šmuc, Ruđer Bošković Institute, Zagreb, Croatia
 
