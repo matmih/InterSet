@@ -1,0 +1,135 @@
+<html>
+<head>
+<style>
+
+#menu ul, #pages ul
+{
+    width: 180px; 
+    border: 1px solid #000000 ;
+    border-top:none;
+    position: relative; font-size:0;
+    list-style: none; margin: 0; padding: 0; display:block;
+}
+
+#menu li, #pages li
+{
+    background: #C0C0C0;
+    list-style: none; margin: 0; padding: 0;
+}
+
+#ack li
+{
+    list-style: none; margin: 0; padding: 0;
+}
+
+#menu li a, #pages li a
+{
+    font: normal 12px Arial;
+    border-top: 1px solid #000000 ;
+    display: block;
+    color: black;
+    text-decoration: none;
+    line-height:26px;
+    padding-left:26px;            
+}
+#menu ul li a, #pages ul li a
+{
+    line-height:30px;
+}
+
+#menu li:hover, #pages li:hover{
+	background: #D0D0D0;
+}     
+
+#menuContainer{
+	background: #F8F8F8 ;
+}
+
+#description{
+ font: normal 16px Arial;
+ letter-spacing: 2px;
+}
+
+#irblogo {
+   width:160px; /*width of your image*/
+   height:100px; /*height of your image*/
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+#ijslogo {
+   width:160px; /*width of your image*/
+   height:80px; /*height of your image*/
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+</style>
+
+ </head>
+<h1 style="margin-bottom: 40px; margin-left: 300px; width: 800px; position:relative"> <center> Tool for interactive redescription set exploration </center> </h1>
+
+<body> 
+
+<div id=introduction style="width:1100px;height:1200px;position:relative">
+<div id=menuContainer style="width:280px;height:1000px;margin-right:20px;float:left;"> 
+<p><center> <b>Explore redescription set based on:</b> </center></p>
+
+	<ul id="menu" style="width: 200px;margin-bottom:100px">
+		<li><a href="http://localhost:8080/elementInfo">Element co-occurence</a></li>
+		<li><a href="http://localhost:8080/attributeInfo">Attribute co-occurence</a></li>
+		<li><a href="http://localhost:8080/globalInfo.html">Redescription properties</a>
+	</ul>
+	
+	<p><center> <b>Information and resources: </b> </center> </p>	
+	<ul id="pages" style="width: 200px;margin-bottom:100px">
+	<li><a href="setup.html">How to set up the tool</a></li>
+	<li><a href="#">How to use the tool</a></li>
+	<li><a href="references.html">References and links</a>
+	</ul>
+	
+	<p><center> <b>Acknowledgements: </b> </center> </p>	
+	<ul id="ack" style="width: 200px;margin-bottom:100px">
+	<li style="margin-bottom:40px"><center><a href="http://www.irb.hr"><img id="irblogo" src="IRB_logo.jpg" border="0" alt="Ruđer Bošković Institute"></a></center></li>
+	<li><center><a href="http://www.ijs.si"><img id="ijslogo" src="ijs_logo.gif" border="0" alt="Jožef Stefan Institute"></a></center></li>
+	</ul>
+	
+	<p><center> <b>Please send questions, suggestions and comments related to the tool to: </b> </center> </p>	
+	<ul id="ack" style="width: 200px;margin-bottom:40px">
+	<li><center>matej.mihelcic@irb.hr</center></li>
+	<li><center>matmih1@gmail.com</center></li>
+	</ul>
+	
+	</div>
+	
+	<div id=description style="float:left;width: 800px;position:relative;"> 
+	<p><b>Redescription mining</b> [5] is a field of <b>Knowledge Discovery</b> that aims to find alternative characterizations of similar element subsets. 
+	In addition, it allows users to find <b>connections between attributes </b> from different attributes sets, called views. 
+	This is useful in many different fields of science like biology, economy, medicine etc.</p>
+	<br>
+	<p> The main purpose of the tool INTERSET is to allow <b>interactive, comprehensive, redescription set exploration</b>. On this page you can test the features of the tool by exploring redescriptions created on data describing world countries by 
+	using general country information and country trading patterns for the year 2012 ([2,6,7]). The tool is described in more detail in the paper "Interactive redescription set exploration" submited to the special issue of the ACM Transactions on Knowledge Discovery from Data 
+	on the topic of Interactive Data Exploration and Analytics (2015.) </p>
+	<br>
+	<h2>General data information </h2>
+	<p>We use data describing 199 world countries. The data contains two views:</p>
+	<ul> <li> <p> Country trade information: contains 312 numerical attributes </p> </li>
+	 <li> <p> General country information: contains 49 numerical attributes </p> </ul> </li>
+	
+	<p>On this data, we created 4150 redescriptions by using a Predictive Clustering Trees [3] based algorithm for mining redescriptions. The main idea of redescription generation process can be seen in [4].</p> 
+	<br>
+	<h2> Redescription set exploration </h2>
+	<p> The tool offers interactive redescription set exploration based on <b> elements </b> described by redescriptions in the redescription set, <b> attributes </b> contained in the redescription queries and general redescription
+	properties. The properties used in the literature are: <b> the Jaccard index, the p-value and redescription support </b> [1]. </p>
+	<br>
+	<h2>Information and resources </h2>
+	<p>In the information and resources section you can find the instructions on how to set up and use the tool. Also, there are some resources available that should help in understanding what is redescription mining,
+	why is it used and how are redescriptions created.</p>
+	</div>
+</div>
+</body>
+
+
+
+
+<html>
