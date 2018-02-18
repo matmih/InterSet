@@ -25,7 +25,7 @@ Scientific contributors
 Student:
 
 Matej Mihelčić, Ruđer Bošković Institute, Zagreb, Croatia
-Supervisors:
+
 
 Supervisor:
 
