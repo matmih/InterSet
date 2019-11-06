@@ -35,7 +35,7 @@ Dr. Tomislav Šmuc, Ruđer Bošković Institute, Zagreb, Croatia
 Original Publications:
 -------------------------
 
-* M. Mihelcic and T. Šmuc, “InterSet: Interactive redescription set exploration,” in
+* M. Mihelčić and T. Šmuc, “InterSet: Interactive redescription set exploration,” in
 Proceedings of Discovery Science: 19th International Conference, DS 2016, Bari,
 Italy, October 19–21, 2016, T. Calders, M. Ceci, and D. Malerba, Eds. Cham:
 Springer International Publishing, 2016, pp. 35–50, isbn: 978-3-319-46307-0. doi:
